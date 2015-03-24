@@ -4,6 +4,13 @@
   <artifactId>kvv</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
+  <dependency>
+     <version>1.0</version>
+  	 <groupId>com.unknown</groupId>
+     <artifactId>stringtotime</artifactId>
+ 	 <systemPath>${basedir}/src/main/resources/stringtotime-1.0.4.jar</systemPath>
+  	<scope>system</scope>
+  </dependency>
   	<dependency>
   		<groupId>com.google.http-client</groupId>
   		<artifactId>google-http-client</artifactId>
