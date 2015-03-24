@@ -119,7 +119,7 @@ public class Departure implements Model {
 	   */
 	  public long getTime() {
 		  long newTime = 0;		// new unix timestamp value
-
+		  
 		  if(this.time.equalsIgnoreCase("sofort") || this.time.equals("0")) {
 			  newTime = (new Date().getTime() / 1000);
 		  }

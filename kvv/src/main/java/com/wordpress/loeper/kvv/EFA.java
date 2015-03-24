@@ -171,6 +171,17 @@ public class EFA {
 	}
 	
 	/**
+	 * Set the number of max infos to the given value.
+	 * This number is important for the Live endpoint to set the max number of expected items.
+	 * @param pMax the max number of expected replies from the kvv server (default is 10)
+	 */
+	@SuppressWarnings("static-access")
+	@Live
+	public void setMaxInfos(int pMax) {
+		getLiveServiceHandler().setMaxInfos(pMax);
+	}
+	
+	/**
 	 * Returns {@link com.wordpress.loeper.kvv.live.model.Stop Stops} with a similar name compared to the given String.<br>
 	 * This method provides similar functionality to the Live API method {@link #autocomplete(String)}.
 	 * @param pStopName the searchphrase for the {@link com.wordpress.loeper.kvv.live.model.Stop Stop}'s name attribute

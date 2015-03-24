@@ -39,6 +39,7 @@ public final class ServiceHandler {
 	private static ServiceHandler sServiceHandler = null;
 	private static int mConnectTimeout = 20000;		// default is 20sec
 	private static int mNumRetries = 10;			// default is 10 retries
+	private static int mMax = 10;
 	
 	private ServiceHandler() {}
 	
@@ -47,6 +48,10 @@ public final class ServiceHandler {
 			sServiceHandler = new ServiceHandler();
 		
 		return sServiceHandler; 
+	}
+	
+	public static void setMaxInfos(int pMax) {
+		mMax = pMax;
 	}
 	
 	@Nonnull		
@@ -90,7 +95,11 @@ public final class ServiceHandler {
 		
     	@Nonnull
 		public static <T extends Model> T getJSON(Class<T> mDataModelClass, String pUrl) throws IOException {
-			return mFactory.buildGetRequest(new GenericUrl(BASE_URL + pUrl + "?key=" + API_KEY + "&_=" + mRandomizer.nextInt())).execute().parseAs(mDataModelClass);
+    		String maxInfos = "";
+    		if(mMax > 0) {
+    			maxInfos = "&maxInfos=" + mMax;
+    		}
+			return mFactory.buildGetRequest(new GenericUrl(BASE_URL + pUrl + "?key=" + API_KEY + "&_=" + mRandomizer.nextInt() + maxInfos)).execute().parseAs(mDataModelClass);
 		}
 	}
 }
