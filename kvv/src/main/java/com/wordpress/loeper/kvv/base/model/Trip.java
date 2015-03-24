@@ -23,7 +23,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import com.clutch.dates.StringToTime;
+import com.wordpress.loeper.external.StringToTime;
+
 
 /**
  * This class represents a trip.

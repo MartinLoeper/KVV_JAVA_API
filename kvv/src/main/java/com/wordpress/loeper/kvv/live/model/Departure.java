@@ -21,8 +21,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import com.clutch.dates.StringToTime;
 import com.google.api.client.util.Key;
+import com.wordpress.loeper.external.StringToTime;
 
 /**
  * This class represents a departure.
