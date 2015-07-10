@@ -9,3 +9,7 @@ Javadoc is available <a href="http://martinloeper.github.io/KVV_JAVA_API/kvv/doc
 
 ##Alternative
 See also: <a href="https://github.com/MartinLoeper/KVV-PHP-unofficial-">KVV-PHP-unofficial-</a>.
+
+##Example
+A little example what you can do with this library:
+![Android Tablet EFA](https://lh3.googleusercontent.com/PhRgcKf2bHEbHPL0ccgSY9RcDNecNzgddBAgimVtRiQ=w1247-h935-no)
