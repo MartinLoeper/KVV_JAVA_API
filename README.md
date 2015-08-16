@@ -11,7 +11,7 @@ Javadoc is available <a href="http://martinloeper.github.io/KVV_JAVA_API/kvv/doc
 See also: <a href="https://github.com/MartinLoeper/KVV-PHP-unofficial-">KVV-PHP-unofficial-</a>.
 
 ##Example
-What you can do with this library in realtime:
+What is possible with this library in realtime:
 
 
 ![Android Tablet EFA](http://fs2.directupload.net/images/150816/trcezfvj.png)
