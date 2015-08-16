@@ -14,4 +14,4 @@ See also: <a href="https://github.com/MartinLoeper/KVV-PHP-unofficial-">KVV-PHP-
 An example what you can do with this library:
 
 
-![Android Tablet EFA](https://lh3.googleusercontent.com/eJjjbcfYqJ9qHG2xcH1yVil9m5Vus6w9p8eIEzu8AQh_iVu83BjpLOBD-oMmEJg_jqa0peA2-UY2c9k=w1896-h859-rw)
+![Android Tablet EFA](http://fs2.directupload.net/images/150816/trcezfvj.png)
