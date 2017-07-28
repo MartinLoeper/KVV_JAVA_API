@@ -14,4 +14,4 @@ See also: <a href="https://github.com/MartinLoeper/KVV-PHP-unofficial-">KVV-PHP-
 What is possible with this library in realtime:
 
 
-![Android Tablet EFA](http://fs2.directupload.net/images/150816/trcezfvj.png)
+![Android Tablet EFA](https://pbs.twimg.com/media/CMDXb03WUAAGLL2.png:large)
