@@ -7,10 +7,10 @@ to your Build Path (optional: <a href="https://github.com/MartinLoeper/KVV_JAVA_
 Usage examples in <a href="https://github.com/MartinLoeper/KVV_JAVA_API/blob/master/kvv/src/test/java/ApiExamples.java">ApiExamples.java</a>.
 Javadoc is available <a href="http://martinloeper.github.io/KVV_JAVA_API/kvv/doc/">here</a>.
 
-##Alternative
+## Alternative
 See also: <a href="https://github.com/MartinLoeper/KVV-PHP-unofficial-">KVV-PHP-unofficial-</a>.
 
-##Example
+## Example
 What is possible with this library in realtime:
 
 
